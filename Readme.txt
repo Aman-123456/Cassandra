@@ -1,3 +1,9 @@
+Cassandra is a database which provides scalability and high availability without compromising performance.
+Main goal of cassandra is lightning fast queries.
+
+In this assignment cassandra is used to store data of twitter and perform queries on it
+
+
 'Question 5 python code and Schema explain below : '
 
 Question 5 Schema, hashtag is made Partition key beacuse data should be partitioned by hashtags and this hashtag will used in 'where' Clause of query . And for cluster key, I used count beacuse we have to sort the tuples in decresing order of count and for uniqueness of the row, used date also.
